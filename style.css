@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+  font-family:"Roboto", sans-serif;
+  margin: auto;
+  max-width: 590px;
+  padding: 20px;
+}
+
+.name{
+  font-size: 1.2em;
+  font-weight: 100;
+  color: white;
+  text-transform: uppercase;
+  background-color:#6C6C6C;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.name:hover{
+  font-size: 1.2em;
+  font-weight: 100;
+  color: white;
+  text-transform: uppercase;
+  background-color:blue;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.name-top{
+  margin-bottom: 40px;
+  margin-top: 17px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+
+}
+
+.header > * {
+  flex: auto;
+}
+
+.right {
+  float: right;
+  border: black solid 1px;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+ul {
+  padding: 0px;
+}
+
+nav ul {  
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  padding: 0px 20px;
+  
+}
+
+.big-image {
+  max-width: 100%;
+  
+}
+
+.contact-details {
+  align-content: center;
+  list-style: none;
+  display: inline-flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+}
+
+
+.contact-details li{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border: black solid 1px;
+  border-radius: 2px;
+  width: 100%;
+  margin-bottom: .7ex ;
+}
+
+
+.icon{
+  width: 13px;
+  margin-right: 10px;
+}
+
+.social-media{
+  width: 25px;
+  margin-right: 15px;
+  margin-top: 20px;
+  vertical-align: middle;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: blue;
+  border-color: blue;
+}
+
+.centered{
+  text-align: center;
+}
+
+.links{
+  text-transform: uppercase;
+  color: #BFBFBF;
+  font-size: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+footer{
+  text-align: center;
+  border-top:#366CD9 1px solid;
+  margin-bottom: 20px;
+}
